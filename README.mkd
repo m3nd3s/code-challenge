@@ -8,15 +8,17 @@ A solução deve, obrigatoriamente, ser implementada em [Ruby on Rails](http://r
 
 A aplicação deverá ser hospedada no [Heroku](https://www.heroku.com/) e ao final da implementação o candidato deverá enviar o link do repositório, e da aplicação hospedada no heroku, para o e-mail [almirmendes@wine.com.br](mailto:almirmendes@wine.com.br).
 
+Nós precisaremos de acesso ao código para avalia-lo, favor ao finalizar adicionar o usuário abaixo conforme cada repositório:
+
+Github ou Bitbucket: m3nd3s
+
 ## Requisitos:
 
-* Utilizar controle de versão Git
+* Utilizar controle de versão: Git
 * Utilizar Ruby 2
-* Utilizar Ruby on Rails
-* Implementar listagem de produtos para adição ao carrinho;
-* Implementar listagem de produtos já adicionados ao carrinho;
+* Utilizar Ruby on Rails 5
 * Cobertura de testes unitários (controllers, models e helpers);
-* Código sob controle de versão Git (hospedar no Heroku ou Github);
+* Hospedar o código da aplicação no Heroku ou Github;
 * Publicação da aplicação no Heroku;
 
 ## Observações
@@ -31,6 +33,8 @@ A aplicação deverá ser hospedada no [Heroku](https://www.heroku.com/) e ao fi
 
 ## Produto
 
+* Implementar listagem de produtos para adição ao carrinho;
+* Implementar listagem de produtos já adicionados ao carrinho;
 Entidade que será adicionada ao carrinho de compras, deve ter os seguintes atributos obrigatóriamente:
 
 * Imagem
