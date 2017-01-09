@@ -23,7 +23,7 @@ Github ou Bitbucket: m3nd3s
 
 ## Observações
 
-* Utilizar-se de um banco de dados. (Dica: PostgreSQL)
+* Utilizar-se de um banco de dados. (Dica: Heroku disponibiliza PostgreSQL)
 * Utilização qualquer front-end framework (Bootstrap, etc) será bem vinda;
 * Os recursos free do Heroku atenderão perfeitamente os requisitos, não há necessidade de utilizar-se de recursos pagos;
 
@@ -33,8 +33,6 @@ Github ou Bitbucket: m3nd3s
 
 ## Produto
 
-* Implementar listagem de produtos para adição ao carrinho;
-* Implementar listagem de produtos já adicionados ao carrinho;
 Entidade que será adicionada ao carrinho de compras, deve ter os seguintes atributos obrigatóriamente:
 
 * Imagem
