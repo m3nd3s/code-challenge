@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O Objetivo proposto aqui é implementar uma aplicaço de carrinho de compras, que permita o usurio adicionar **N produtos**. Ao seu carrinho de compras, além de calcular os devidos totais.
+O Objetivo proposto aqui é implementar uma aplicação de carrinho de compras, que permita o usuário adicionar **N produtos**. Ao seu carrinho de compras, além de calcular os devidos totais.
 
 A solução deve, obrigatoriamente, ser implementada em [Ruby on Rails](http://rubyonrails.org/), com repositório de código no [GitHub](https://github.com/) ou [BitBucket](https://bitbucket.org/).
 
