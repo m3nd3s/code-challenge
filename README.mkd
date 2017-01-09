@@ -2,13 +2,13 @@
 
 ## Descrição
 
-O Objetivo proposto aqui é implementar uma aplicação de carrinho de compras, que permita o usuário adicionar **N produtos**. Ao seu carrinho de compras, além de calcular os devidos totais.
+O Objetivo proposto aqui é implementar uma aplicação de carrinho de compras, que permita o usuário adicionar **N produtos** ao seu carrinho de compras, além de calcular os devidos totais.
 
 A solução deve, obrigatoriamente, ser implementada em [Ruby on Rails](http://rubyonrails.org/), com repositório de código no [GitHub](https://github.com/) ou [BitBucket](https://bitbucket.org/).
 
 A aplicação deverá ser hospedada no [Heroku](https://www.heroku.com/) e ao final da implementação o candidato deverá enviar o link do repositório, e da aplicação hospedada no heroku, para o e-mail [almirmendes@wine.com.br](mailto:almirmendes@wine.com.br).
 
-Nós precisaremos de acesso ao código para avalia-lo, favor ao finalizar adicionar o usuário abaixo conforme cada repositório:
+Nós precisaremos de acesso ao código para avaliá-lo, favor ao finalizar adicionar o usuário abaixo conforme cada repositório:
 
 Github ou Bitbucket: m3nd3s
 
@@ -17,14 +17,14 @@ Github ou Bitbucket: m3nd3s
 * Utilizar controle de versão: Git
 * Utilizar Ruby 2
 * Utilizar Ruby on Rails 5
-* Hospedar o código da aplicação no Heroku ou Github;
+* Hospedar o código da aplicação no Bitbucket ou Github;
 * Publicação da aplicação no Heroku;
 
 ## Observações
 
-* Utilizar-se de um banco de dados. (Dica: Heroku disponibiliza PostgreSQL)
-* Utilização qualquer front-end framework (Bootstrap, etc) será bem vinda;
-* Os recursos free do Heroku atenderão perfeitamente os requisitos, não há necessidade de utilizar-se de recursos pagos;
+* Utilizar um banco de dados. (Dica: Heroku disponibiliza PostgreSQL)
+* Desejável o uso de qualquer front-end framework (Bootstrap, etc);
+* Os recursos free do Heroku atenderão perfeitamente os requisitos. Logo não há necessidade de fazer uso de recursos pagos;
 
 ---------------
 
@@ -32,7 +32,7 @@ Github ou Bitbucket: m3nd3s
 
 ## Produto
 
-Entidade que será adicionada ao carrinho de compras, deve ter os seguintes atributos obrigatóriamente:
+Entidade que será adicionada ao carrinho de compras, deve ter os seguintes atributos obrigatoriamente:
 
 * Imagem
 * Nome
@@ -48,7 +48,7 @@ Abaixo segue um exemplo de tela de listagem de produtos para serem adicionados a
 | Build Awesome Command-Line Applications in Ruby      |  $ 39  | [Adicionar]()   |
 | Agile Web Development with Rails 4                   |  $ 56  | [Adicionar]()   |
 
-**Observação:** Ao adicionar novamente um item ao carrinho, sua quantidade deve ser incrementada de +1;
+**Observação:** Ao adicionar novamente um item ao carrinho, sua quantidade deve ser incrementada em +1;
 
 
 ## Carrinho
@@ -73,5 +73,6 @@ Levaremos vários quesitos em consideração, além dos requisitos acima mencion
 * Boas práticas de desenvolvimento;
 * [SOLID](https://robots.thoughtbot.com/back-to-basics-solid);
 * Cobertura de testes;
+* Design de código coeso;
 * Clareza/limpeza do(s) código(s);
 *
