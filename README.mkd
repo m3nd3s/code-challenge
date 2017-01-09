@@ -1,0 +1,76 @@
+# Implementação de Carrinho de Compras
+
+## Descrição
+
+O Objetivo proposto aqui é implementar uma aplicaço de carrinho de compras, que permita o usurio adicionar **N produtos**. Ao seu carrinho de compras, além de calcular os devidos totais.
+
+A solução deve, obrigatoriamente, ser implementada em [Ruby on Rails](http://rubyonrails.org/), com repositório de código no [GitHub](https://github.com/) ou [BitBucket](https://bitbucket.org/).
+
+A aplicação deverá ser hospedada no [Heroku](https://www.heroku.com/) e ao final da implementação o candidato deverá enviar o link do repositório, e da aplicação hospedada no heroku, para o e-mail [almirmendes@wine.com.br](mailto:almirmendes@wine.com.br).
+
+## Requisitos:
+
+* Utilizar controle de versão Git
+* Utilizar Ruby 2
+* Utilizar Ruby on Rails
+* Implementar listagem de produtos para adição ao carrinho;
+* Implementar listagem de produtos já adicionados ao carrinho;
+* Cobertura de testes unitários (controllers, models e helpers);
+* Código sob controle de versão Git (hospedar no Heroku ou Github);
+* Publicação da aplicação no Heroku;
+
+## Observações
+
+* Utilizar-se de um banco de dados. (Dica: PostgreSQL)
+* Utilização qualquer front-end framework (Bootstrap, etc) será bem vinda;
+* Os recursos free do Heroku atenderão perfeitamente os requisitos, não há necessidade de utilizar-se de recursos pagos;
+
+---------------
+
+# Sobre a aplicação de carrinho de compras
+
+## Produto
+
+Entidade que será adicionada ao carrinho de compras, deve ter os seguintes atributos obrigatóriamente:
+
+* Imagem
+* Nome
+* Preço
+
+Abaixo segue um exemplo de tela de listagem de produtos para serem adicionados ao carrinho.
+
+
+| Produto                                              |  Preço |  -              |
+|------------------------------------------------------|--------|-----------------|
+| Metaprogramming Ruby 2: Program Like the Ruby Pros   |  $ 48  | [Adicionar]()   |
+| Master the Art of Handling Failure in Ruby           |  $ 15  | [Adicionar]()   |
+| Build Awesome Command-Line Applications in Ruby      |  $ 39  | [Adicionar]()   |
+| Agile Web Development with Rails 4                   |  $ 56  | [Adicionar]()   |
+
+**Observação:** Ao adicionar novamente um item ao carrinho, sua quantidade deve ser incrementada de +1;
+
+
+## Carrinho
+
+O carrinho é a entidade responsável por _"guardar"_ os produtos que tenho interesse em comprar. Abaixo segue um exemplo de tela do carrinho.
+
+O botão X permitirá remover o item do carrinho
+
+
+| Item                                                 |  Preço | Quantidade | Total | - |
+|------------------------------------------------------|--------|------------|-------|---|
+| Metaprogramming Ruby 2: Program Like the Ruby Pros   |  $ 48  |     1      |  $ 48 | [X]()|
+| Master the Art of Handling Failure in Ruby           |  $ 15  |     2      |  $ 30 | [X]()|
+|            |    |     **Total**      |  $ 78 |
+
+----------------------------
+
+# O que será avaliado?
+
+Levaremos vários quesitos em consideração, além dos requisitos acima mencionados, como:
+
+* Boas práticas de desenvolvimento;
+* [SOLID](https://robots.thoughtbot.com/back-to-basics-solid);
+* Cobertura de testes;
+* Clareza/limpeza do(s) código(s);
+*
