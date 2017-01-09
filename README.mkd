@@ -17,7 +17,6 @@ Github ou Bitbucket: m3nd3s
 * Utilizar controle de versão: Git
 * Utilizar Ruby 2
 * Utilizar Ruby on Rails 5
-* Cobertura de testes unitários (controllers, models e helpers);
 * Hospedar o código da aplicação no Heroku ou Github;
 * Publicação da aplicação no Heroku;
 
