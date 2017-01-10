@@ -75,4 +75,3 @@ Levaremos vários quesitos em consideração, além dos requisitos acima mencion
 * Cobertura de testes;
 * Design de código coeso;
 * Clareza/limpeza do(s) código(s);
-*
